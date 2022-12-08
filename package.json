@@ -1,0 +1,23 @@
+{
+  "name": "codechallenge-wk2",
+  "version": "1.0.0",
+  "description": "DOM manipulation and communicating with servers using JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Austinjnr/codeChallenge-wk2.git"
+  },
+  "keywords": [
+    "DOM",
+    "fetch"
+  ],
+  "author": "Austin Obonyo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Austinjnr/codeChallenge-wk2/issues"
+  },
+  "homepage": "https://github.com/Austinjnr/codeChallenge-wk2#readme"
+}
