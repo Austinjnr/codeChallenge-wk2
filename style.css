@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+#app{
+    height: 100%;
+    background: var(--bg-overlay);
+    overflow-y: scroll;
+}
+html{
+    font-size: 62%;
+}
+.app-overlay{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
+}
+header{
+    background-color: black;
+    padding: 1rem 2rem;
+}
+.logo{
+    color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+main{
+    height: 100%;
+}
+.cards {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5rem 0;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+    padding: 0;
+    width: 85%;
+    margin: auto;
+}
+.card{
+    border: 2px black;
+    overflow: hidden;
+    box-shadow: 15px 15px 6px var(--shadow);
+    transition: all 0.5 ease;
+    cursor: pointer;
+    margin-bottom: 5rem;
+    width: 30rem;
+}
+.card-image{
+    width: 23rem;
+    height: 28rem;
+    object-fit: cover;
+    vertical-align: middle;
+}
+.card-info{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    color: black;
+    padding: 2rem 0;
+}
+.candidate-votes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60px;
+}
+.votes-number{
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.votes-text{
+    font-size: medium;
+    font-weight: 600;
+}
+.line{
+    width: 0.1rem;
+    background-color: black;
+}
+.candidate-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.candidate-name{
+    font-size: medium;
+    font-weight: 700;
+    margin-bottom: 8.5rem;
+}
+.card-btn{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 2rem 0;
+    color: rgb(0, 10, 18);
+    cursor: pointer;
+    border-top: 3px rgb(28, 26, 26);
+}
+.btn-Mr.cute,
+.btn-Mx.monkey,
+.btn-Ms.zebra,
+.btn-Dr.lion,
+.btn-Mme.Panda{
+    transition: all 0.5s ease;
+}
+
+card:first-of-type{
+    margin-bottom: 0;
+}
+.card:hover .btn-Mr.cute,
+.card:hover .btn-Mx.monkey,
+.card:hover .btn-Ms.zebra,
+.card:hover .btn-Dr.lion,
+.card:hover .btn-Mme.Panda{
+    font-size: 3rem;
+}
+.btn-Mr.cute:hover ,
+.btn-Mx.monkey:hover ,
+.btn-Ms.zebra:hover ,
+.btn-Dr.lion:hover ,
+.btn-Mme.Panda:hover {
+    background: var(--btn-green-hover);
+}
