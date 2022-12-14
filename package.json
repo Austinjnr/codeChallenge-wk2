@@ -4,7 +4,9 @@
   "description": "DOM manipulation and communicating with servers using JS",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "start": "node index.js",
+    "server": "light-server -s . -p 3000 -x http://localhost:3000/characters"
   },
   "repository": {
     "type": "git",

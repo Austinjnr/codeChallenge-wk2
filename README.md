@@ -49,7 +49,8 @@ Running the application is very straight forward. You can use the following step
 
 - Run on the browser
 
-      In VS code right click on your mouse and enter on the option  ``open with live server``
+      npm run server
+      
 
 # Authors
 This project was contributed to by:
